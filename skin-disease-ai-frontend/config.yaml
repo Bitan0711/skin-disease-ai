@@ -1,0 +1,17 @@
+app:
+  name: "Skin Disease AI"
+  mode: "demo"
+
+frontend:
+  default_theme: "light"
+  supported_image_types:
+    - jpg
+    - jpeg
+    - png
+
+model:
+  path: "models/model.pth"
+  input_size: 224
+
+xai:
+  method: "gradcam"
